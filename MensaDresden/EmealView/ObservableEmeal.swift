@@ -2,15 +2,16 @@ import Foundation
 import Combine
 import EmealKit
 import StoreKit
+import SwiftUI
 
 class ObservableEmeal: ObservableObject, EmealDelegate {
-    @UserDefault("emeal.currentbalance", defaultValue: 0)
-    var currentBalance: Double
+    @AppStorage("emeal.currentbalance")
+    var currentBalance: Double = 0
 
-    @UserDefault("emeal.lasttransaction", defaultValue: 0)
-    var lastTransaction: Double
+    @AppStorage("emeal.lasttransaction")
+    var lastTransaction: Double = 0
 
-    @UserDefault("emeal.lastscan", defaultValue: nil)
+    @AppStorage("emeal.lastscan")
     var lastScanDate: Date?
 
     public func readData(currentBalance: Double, lastTransaction: Double) {

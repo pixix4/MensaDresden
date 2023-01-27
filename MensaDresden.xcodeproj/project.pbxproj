@@ -59,7 +59,6 @@
 		39A1418F2348210000FEE789 /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A1418E2348210000FEE789 /* BarButton.swift */; };
 		39A141912348813D00FEE789 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141902348813D00FEE789 /* Settings.swift */; };
 		39A141932348EBC000FEE789 /* BlacklistBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141922348EBC000FEE789 /* BlacklistBinding.swift */; };
-		39A141952348EBEE00FEE789 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141942348EBEE00FEE789 /* UserDefault.swift */; };
 		39A79148241FC50F0009CF03 /* NewsfeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A79147241FC50F0009CF03 /* NewsfeedView.swift */; };
 		39A7914A241FC96B0009CF03 /* ObservableEmeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A79149241FC96B0009CF03 /* ObservableEmeal.swift */; };
 		39BEEB71234BAD2D0081B9AE /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BEEB70234BAD2D0081B9AE /* DeviceOrientation.swift */; };
@@ -96,7 +95,6 @@
 		EF9EF5062811525200E7EE19 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E215802358E29D00F5EBE9 /* LocationManager.swift */; };
 		EF9EF507281152D500E7EE19 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141902348813D00FEE789 /* Settings.swift */; };
 		EF9EF5092811532D00E7EE19 /* KeychainItem in Frameworks */ = {isa = PBXBuildFile; productRef = EF9EF5082811532D00E7EE19 /* KeychainItem */; };
-		EF9EF50A2811534B00E7EE19 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141942348EBEE00FEE789 /* UserDefault.swift */; };
 		EF9EF50B2811535B00E7EE19 /* BlacklistBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A141922348EBC000FEE789 /* BlacklistBinding.swift */; };
 		EF9EF50C281153E600E7EE19 /* LoadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B34E7236CDE7D00C10D9B /* LoadingListView.swift */; };
 		EF9EF50D281153F600E7EE19 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B94F727656B210071E678 /* L10n.swift */; };
@@ -119,6 +117,8 @@
 		EF9EF52628115AE100E7EE19 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9EF52528115AE100E7EE19 /* AppView.swift */; };
 		EFF0399628117E060054C3E9 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0399528117E060054C3E9 /* MealDetailView.swift */; };
 		EFF0399C281180690054C3E9 /* MealImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF0399B281180690054C3E9 /* MealImage.swift */; };
+		EFF45D542983EAB6008ED3E2 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF45D532983EAB6008ED3E2 /* RawRepresentable.swift */; };
+		EFF45D552983EAB6008ED3E2 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF45D532983EAB6008ED3E2 /* RawRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,7 +236,6 @@
 		39A1418E2348210000FEE789 /* BarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButton.swift; sourceTree = "<group>"; };
 		39A141902348813D00FEE789 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		39A141922348EBC000FEE789 /* BlacklistBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlacklistBinding.swift; sourceTree = "<group>"; };
-		39A141942348EBEE00FEE789 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		39A141972348EF1D00FEE789 /* Mensa Dresden.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mensa Dresden.entitlements"; sourceTree = "<group>"; };
 		39A79147241FC50F0009CF03 /* NewsfeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedView.swift; sourceTree = "<group>"; };
 		39A79149241FC96B0009CF03 /* ObservableEmeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableEmeal.swift; sourceTree = "<group>"; };
@@ -274,6 +273,7 @@
 		EF9EF52528115AE100E7EE19 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		EFF0399528117E060054C3E9 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 		EFF0399B281180690054C3E9 /* MealImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealImage.swift; sourceTree = "<group>"; };
+		EFF45D532983EAB6008ED3E2 /* RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,6 +450,7 @@
 				396FC3E12357A1A9007B97F3 /* Transaction.swift */,
 				39A0C94523623B9E0029FA35 /* Date.swift */,
 				3969E12D24FFAE0C00036C69 /* Color.swift */,
+				EFF45D532983EAB6008ED3E2 /* RawRepresentable.swift */,
 				395F98A424FFED7C00740176 /* View.swift */,
 				391B94FD27665AEB0071E678 /* Binding.swift */,
 				3918AD412782FD2A00B82373 /* Meal.swift */,
@@ -465,7 +466,6 @@
 				39A1418C23481B5F00FEE789 /* LargeButton.swift */,
 				39A1418E2348210000FEE789 /* BarButton.swift */,
 				39A141922348EBC000FEE789 /* BlacklistBinding.swift */,
-				39A141942348EBEE00FEE789 /* UserDefault.swift */,
 				39BEEB70234BAD2D0081B9AE /* DeviceOrientation.swift */,
 				39CD5B18234F778400435E71 /* WebView.swift */,
 				39E215802358E29D00F5EBE9 /* LocationManager.swift */,
@@ -839,13 +839,13 @@
 				396FC3B523539145007B97F3 /* EmealCardView.swift in Sources */,
 				390B777627E21B6100DEF4E3 /* Analytics.swift in Sources */,
 				394D9D1F234560B4005F076C /* SettingsView.swift in Sources */,
-				39A141952348EBEE00FEE789 /* UserDefault.swift in Sources */,
 				391B94F827656B210071E678 /* L10n.swift in Sources */,
 				39281C882342910600E4EFB5 /* CanteenCell.swift in Sources */,
 				398B34E4236CC6B500C10D9B /* MealList.swift in Sources */,
 				391B94FC2766296C0071E678 /* MensaApp.swift in Sources */,
 				396FC3B0235378C1007B97F3 /* AppView.swift in Sources */,
 				391B94FA276574E40071E678 /* API.swift in Sources */,
+				EFF45D542983EAB6008ED3E2 /* RawRepresentable.swift in Sources */,
 				395EA6D7282A9CD3002F8055 /* Logger.swift in Sources */,
 				39A0C940236227F70029FA35 /* DatePickerView.swift in Sources */,
 				3912B7B9282E8184006C3354 /* UserDefaults.swift in Sources */,
@@ -891,8 +891,8 @@
 				3912B7BA282E818B006C3354 /* UserDefaults.swift in Sources */,
 				EFF0399628117E060054C3E9 /* MealDetailView.swift in Sources */,
 				EF9EF51B2811565F00E7EE19 /* Binding.swift in Sources */,
-				EF9EF50A2811534B00E7EE19 /* UserDefault.swift in Sources */,
 				EF516139282E42F200EF6074 /* Logger.swift in Sources */,
+				EFF45D552983EAB6008ED3E2 /* RawRepresentable.swift in Sources */,
 				EF9EF4FD281151A300E7EE19 /* CanteenListView.swift in Sources */,
 				EF9EF51A2811565C00E7EE19 /* View.swift in Sources */,
 				EF9EF5062811525200E7EE19 /* LocationManager.swift in Sources */,
@@ -1032,13 +1032,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -1088,13 +1089,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};

@@ -30,8 +30,8 @@ class Settings: ObservableObject {
 
     // MARK: Favorites
 
-    @UserDefault("favoriteCanteens", defaultValue: [], suite: .mensaDresdenGroup)
-    var favoriteCanteens: [String] {
+    @AppStorage("favoriteCanteens", store: .mensaDresdenGroup)
+    var favoriteCanteens: [String] = [] {
         didSet {
             self.objectWillChange.send()
         }
@@ -52,8 +52,8 @@ class Settings: ObservableObject {
         case employee
     }
 
-    @UserDefault("priceType", defaultValue: PriceType.student.rawValue)
-    var priceType: PriceType.RawValue
+    @AppStorage("priceType")
+    var priceType: PriceType.RawValue = PriceType.student.rawValue
     var priceTypeBinding: Binding<PriceType> {
         return Binding<PriceType>(
             get: {
@@ -76,8 +76,8 @@ class Settings: ObservableObject {
         case alphabetical
     }
 
-    @UserDefault("canteenSorting", defaultValue: CanteenSorting.default.rawValue)
-    var canteenSorting: CanteenSorting.RawValue
+    @AppStorage("canteenSorting")
+    var canteenSorting: CanteenSorting.RawValue = CanteenSorting.default.rawValue
     var canteenSortingBinding: Binding<CanteenSorting> {
         return Binding<CanteenSorting>(
         get: {
@@ -106,8 +106,8 @@ class Settings: ObservableObject {
         }
     }
 
-    @UserDefault("userDiet", defaultValue: DietType.all.rawValue)
-    var userDiet: DietType.RawValue
+    @AppStorage("userDiet")
+    var userDiet: DietType.RawValue = DietType.all.rawValue
     var userDietBinding: Binding<String> {
         Binding<String>(
             get: {
